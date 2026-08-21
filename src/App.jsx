@@ -3,9 +3,10 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    // If running in a normal web browser (GitHub pages), make the background black
     if (!navigator.userAgent.includes('Electron')) {
-      document.body.style.backgroundColor = '#000000';
+      document.body.classList.add('web-mode');
+    } else {
+      document.body.classList.add('electron-mode');
     }
   }, []);
 

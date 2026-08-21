@@ -8,7 +8,7 @@
 Turn your boring Windows mouse movements into a mesmerizing, interactive fluid simulation! Built with React and wrapped natively using Electron, this app creates a transparent, click-through overlay that responds to your mouse natively on your desktop.
 
 ### 🎥 See it in Action
-https://github.com/anujsehrawat1/FluidCursorApp/raw/main/public/splashcursor.mp4
+<video src="https://raw.githubusercontent.com/anujsehrawat1/FluidCursorApp/main/public/splashcursor.mp4" controls autoplay loop muted></video>
 
 ### 🌐 Try it Live (No Install Required)
 You can test the fluid cursor directly in your browser right now!

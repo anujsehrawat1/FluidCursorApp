@@ -3,6 +3,11 @@ body, html, #root {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: transparent !important;
   overflow: hidden;
+}
+body.web-mode {
+  background-color: black !important;
+}
+body.electron-mode {
+  background-color: transparent !important;
 }
